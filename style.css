@@ -6,13 +6,20 @@
 }
 
 body {
+    position: relative;
     width: 100vw;
     /* background: url(./assets/HG.png) lightgray 50% / cover no-repeat ;
     background-position: -400px 0 0 0; */
 }
 
+#hg {
+    position: absolute;
+    margin-top: -400px;
+}
+
 header {
     display: flex;
+    position: absolute;
     margin: 64px 80px 198px;
     align-items: center;
     justify-content: space-between;
@@ -94,8 +101,4 @@ h5 {
 
 #id {
     display: grid;
-}
-
-#mountains {
-    width: 100vw;
 }
