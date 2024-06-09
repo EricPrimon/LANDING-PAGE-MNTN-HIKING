@@ -15,6 +15,7 @@ body {
 #hg {
     position: absolute;
     margin-top: -400px;
+    z-index: -1000;
 }
 
 header {
@@ -52,7 +53,7 @@ a {
 #first {
     display: grid;
     position: relative;
-    width: 50vw;
+    width: 60vw;
     height: 310px;
     margin: auto;
     margin-top: 199px;
@@ -83,7 +84,7 @@ h2 {
 h1 {
     color: var(--Wei, #FFF);
     font-family: "Chronicle Display";
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 600;
     line-height: 100px;
 }
@@ -100,6 +101,9 @@ h5 {
     margin-right: 16px;
 }
 
-#id {
+#mg {
+    position: relative;
     display: grid;
+    z-index: -1000;
+    margin-top: -7vh;
 }
