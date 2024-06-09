@@ -14,13 +14,12 @@ body {
 
 #hg {
     position: absolute;
-    width: 100vw;
     margin-top: -400px;
 }
 
 header {
     display: flex;
-    position: absolute;
+    position: relative;
     margin: 64px 80px 198px;
     align-items: center;
     justify-content: space-between;
@@ -51,11 +50,12 @@ a {
 }
 
 #first {
-    width: 950px;
+    display: grid;
+    position: relative;
+    width: 50vw;
     height: 310px;
     margin: auto;
     margin-top: 199px;
-    display: grid;
     align-items: center;
     justify-content: space-between;
 }
