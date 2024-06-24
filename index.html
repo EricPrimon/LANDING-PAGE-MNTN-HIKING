@@ -31,14 +31,14 @@
 
 <body>
     <header>
-        <img src="./assets/Logo.svg" alt="logo">
+        <img id="logo" src="./assets/Logo.svg" alt="logo">
         <ul>
             <li><a href="#">Equipment</a></li>
             <li><a href="#">About us</a></li>
             <li><a href="#">Blog</a></li>
         </ul>
         <div id="login">
-            <img src="./assets/cart.svg" alt="icon-account">
+            <img id="icon" src="./assets/cart.svg" alt="icon-account">
             <a href="#" id="account">Account</a>
         </div>
     </header>
@@ -50,7 +50,8 @@
             </div>
             <h1>Be Prepared For The Mountains And Beyond!</h1>
             <div id="scroll">
-                <h5>scroll down</h5><img src="./assets/arrow_downward_24px.svg" alt="arrow-downward">
+                <h5>scroll down</h5><img src="./assets/arrow_downward_24px.svg" alt="arrow-downward"
+                    style="width: 1.171vw; height: 1.757vw"> <!--width: 16px; height: 24px-->
             </div>
         </div>
         <article> <!-- CONTENT -->
@@ -58,7 +59,7 @@
                 <div id="subtitle">
                     <div id="rectangle"></div>
                     <h2>GET STARTED</h2>
-                </div> 
+                </div>
                 <h3>What level of hiker are you?</h3>
                 <p>Determining what level of hiker you are can be an important tool when planning future hikes. This
                     hiking
@@ -67,12 +68,14 @@
                     All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate,
                     expert,
                     or expert backpacker? </p>
-                <div>read more</div>
-                <img src="./assets/arrow_downward_24px.svg" alt="arrow-downward">
-                <aside>
-                    <!-- <img src="./assets/img_article_01.png" alt="walking"> -->
-                </aside>
+                <div id="read-more">
+                    <h6>read more</h6><img src="./assets/arrow_downward_24px.svg" alt="arrow-right"
+                        style="transform: rotate(-90deg); width: 1.171vw; height: 1.757vw; fill: #FBD784;">
+                </div>
             </div>
+            <aside>
+                <img src="./assets/img_article_01.png" alt="walking">
+            </aside>
         </article>
     </main>
 </body>
